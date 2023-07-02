@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #game-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  #score {
+    font-size: 40px;
+  }
+
+  #hight-score {
+    font-size: 30px;
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: rgb(234, 246, 11);
+  }
+  
+  #restart-game {
+    font-size: 25px;
+    padding: 5px 10px;
+    border: 2px solid rgb(237, 243, 60);
+    border-radius: 10px;
+    background-color: rgb(10, 10, 9);
+    color: rgb(241, 244, 57);
+    cursor: pointer;
+  }
